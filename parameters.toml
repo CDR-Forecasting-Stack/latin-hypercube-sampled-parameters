@@ -1,0 +1,32 @@
+#
+# Diatom rate: Sarthou et al. (2005) https://botany.natur.cuni.cz/algo/soubory/EKOprotist/clanky/Sarthou_et-al_2005_growth-diatoms.pdf
+#
+#
+
+[diatom_maximum_growth_rate]
+bounds = [0.4, 3.3]
+unit = "d-1"
+
+[diatom_grazing_rate]
+bounds = [0.2, 1.8] 
+unit = "d-1"
+
+[diatom_mortality_rate]
+bounds = [0.005, 0.24] # based on cell lysis rate 
+unit = "d-1"
+
+[diatom_Ks_Si]
+bounds = [0, 8.9] # 3.9 +/- 5.0
+unit = "uM"
+
+[diatom_Ks_N]
+bounds = [0, 3.5] # 1.6 +/- 1.9 
+unit = "uM"
+
+[diatom_Ks_P]
+bounds = [0, 0.53] # 0.24 +/- 0.29
+unit = "uM"
+
+[diatom_Ks_Fe]
+bounds = [0, 0.79] # 0.35 +/- 0.44 
+unit = "uM"
